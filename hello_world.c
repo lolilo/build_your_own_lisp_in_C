@@ -7,8 +7,9 @@
 // declared to output an int and take as input an int and a char**
 // All C programs must contain this function. 
 // All programs start running from this function.
+
 int main(int argc, char** argv) {
-    puts("Hello, world!"); // puts is short for put string
+    puts("Hello, world! This is my first C program!"); // puts is short for put string
     return 0; // if the C function returns zero, this indicates there have been no errors running the program
 }
 
@@ -18,6 +19,10 @@ int main(int argc, char** argv) {
 // cc -std=c99 -Wall hello_world.c -o hello_world
 // This compiles the code in hello_world.c, reporting any warnings, and outputs the program to a new file called hello_world. We use the -std=c99 flag to tell the compiler which version or standard of C we are programming with. This lets the compiler ensure our code is standardized, so that people with different operating systems or compilers will be able to use our code.
 
-// If successful you should see the output file in the current directory. This can be run by typing ./hello_world (or just hello_world on Windows). If everything is correct you should see a friendly Hello, world! message appear.
+// If successful you should see the output file in the current directory. 
+// This can be run by typing ./hello_world (or just hello_world on Windows). If everything is correct you should see a friendly Hello, world! message appear.
 
 // Congratulations! You've just compiled and run your first C program.
+
+
+// Could also compile with cc hello_world.c. This creates a file a.out.
